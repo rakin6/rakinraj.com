@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/tes/index5.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: yellow;">
+    <h1>Student Register from</h1>
+    <h4>Flii in this from to Register</h4>
+    <table>
+        <tbody><tr>
+            <td>
+                First Name 
+            </td>
+            <td>
+        <input type="text" placeholder="Enter your first name">
+            </td>
+        </tr>
+    </tbody></table>
+<br>
+<table>
+    <tbody><tr>
+        <td>
+            Last Name 
+        </td>
+        <td>
+    <input type="text" placeholder="Enter your last name">
+        </td>
+    </tr>
+</tbody></table>
+<br>
+<table>
+    <tbody><tr>
+        <td>
+             E-mail 
+        </td>
+        <td>
+    <input type="text" placeholder="Enter your E-mail">
+        </td>
+    </tr>
+</tbody></table>
+      <br>
+      <table>
+        <tbody><tr>
+            <td>
+                First Name 
+            </td>
+            <td>
+        <input type="date"> 
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    <table>
+        <tbody><tr>
+            <td>
+                Set username
+            </td>
+            <td>
+        <input type="text" placeholder="Set username">
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    <table>
+        <tbody><tr>
+            <td>
+                Set Password 
+            </td>
+            <td>
+        <input type="password" placeholder="Set password">
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    
+        
+            Gender 
+        
+        
+            <br><br>
+    <input type="radio" value="Male" name="class" id="101">Male
+    <br>
+    <input type="radio" value="FeMale" name="class" id="101">FeMale
+    <br>
+    <input type="radio" value="Others" name="class" id="101">Others
+<br><br>
+
+    
+        
+            Course : 
+        
+        
+<select name="city">
+<option value="Delhi" name="Course : ">Course</option>
+<option value="benglor">benglor</option>
+<option value="masij">masij</option>
+<option value="sava">sava</option>
+<option value="rakin">rakin</option>
+
+</select>
+<br><br>
+    <input type="submit" value="Register" <footer="">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
